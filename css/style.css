@@ -488,20 +488,41 @@ ul.site_menu li a {
      text-align: center;
 }
 
+/** about section **/
+
+.feature_img figure {
+     margin: 10%;
+}
+
+.feature_img figure img {
+     border-radius: 300%;
+     border: #f6dc67ab solid 15px;
+     text-align: center;
+     margin: 0 auto;
+     display: block;
+}
+
+.feature_img h3 {
+	font-size: 25px;
+	font-weight: 600;
+}
+
+
+/** end about section **/
 
 /** about section **/
 
 .about {
      font-family: 'Poppins', sans-serif;
      background: #fff;
-     padding-top: 90px;
+     padding-top: 50px;
 }
 
 .bg_about {
      background: url(../images/bg_about.png);
      background-repeat: no-repeat;
      background-size: 100% 100%;
-     padding: 50px 0;
+     /*padding: 50px 0;*/
 }
 
 .about .titlepage {
@@ -545,11 +566,11 @@ ul.site_menu li a {
 /** products **/
 
 .prot {
-     padding-top: 90px;
+     padding-top: 50px;
 }
 
 .products {
-     padding: 90px 0;
+     padding: 25px 0;
      background-color: #030303;
 }
 
@@ -566,7 +587,7 @@ ul.site_menu li a {
 
 .product {
      background-color: #f3cf2d;
-     padding: 33px 10px;
+     padding: 25px 10px;
 }
 
 .product figure {
@@ -582,12 +603,12 @@ ul.site_menu li a {
      font-size: 17px;
      font-weight: 600;
      text-transform: uppercase;
-     line-height: 30px;
+     line-height: 30px;☺
      padding-bottom: 0;
 }
 
 .products .read_more {
-     margin-top: 80px;
+     margin-top: 40px;
      background: #fff;
      color: #000;
      text-transform: none;
@@ -636,6 +657,22 @@ ul.site_menu li a {
 
 /** end products **/
 
+/** start vendors **/
+
+.vendor_img figure {
+   margin: 10%;
+}
+
+.vendor_img figure img {
+     border-radius: 10%;
+     border: #f6dc67ab solid 5px;
+     text-align: center;
+     margin: 0 auto;
+     display: block;
+}
+
+/** end Vendor **/
+
 
 /** contact section **/
 
@@ -645,7 +682,7 @@ ul.site_menu li a {
      background-size: 100% 100%;
      background-position: center;
      background-repeat: no-repeat;
-     padding: 90px 0;
+     padding: 50px 0;
 }
 
 .bg_yeloow {
@@ -718,7 +755,7 @@ ul.site_menu li a {
 
 .footer {
      background: #212120;
-     padding-top: 90px;
+     padding-top: 50px;
      text-align: center;
 }
 
